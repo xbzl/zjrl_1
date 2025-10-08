@@ -3,7 +3,7 @@
 #!author= Bailan
 
 [Script]
-zjrl Pro = type=http-response,pattern=^https?:\/\/api\.rc-backup\.com\/v1\/subscribers\/.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xbzl/zjrl_1/refs/heads/main/zjrl_1.js
+zjrl Pro = type=http-response,pattern=^https?:\/\/api\.rc-backup\.com\/v1\/subscribers\/.*$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xbzl/zjrl_1/refs/heads/main/zjrl_1.js
 
 [MITM]
 hostname = %APPEND% api.rc-backup.com
